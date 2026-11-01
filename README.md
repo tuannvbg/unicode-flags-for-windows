@@ -1,6 +1,10 @@
 # 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 Support
 
-This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and Unicode 17.0 symbols (🫨🫠🫷🫸), using custom font stacking.
+This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and Unicode 17.0 symbols (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎), using custom font stacking.
+
+📌 Ghi chú phiên bản: Tài liệu và ảnh chụp trong repo này được thực hiện vào khoảng tháng 9/2025, dựa trên Segoe UI Emoji v1.60 và Twemoji v16.0.1. Emoji mới (16.0, 17.0, 18.0...) có hiển thị được hay không phụ thuộc vào font bạn cài (ví dụ bản của Chasmical, hoặc bản tự build từ emoji-win), không phụ thuộc vào repo này. Bản font mới nhất xem tại Releases của Chasmical.
+
+📌 Version note: The documentation and screenshots in this repo were made around September 2025, based on Segoe UI Emoji v1.60 and Twemoji v16.0.1. Whether newer emojis (16.0, 17.0, 18.0...) display depends on the font you install (for example Chasmical's build, or one you build yourself with emoji-win), not on this repo. For the latest font, see Chasmical's Releases.
 
 📘 Available in:
 - 🇺🇸 [English](./README.en.md)
