@@ -50,7 +50,7 @@ Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều n
 Đây là một phát hiện thú vị: khi cài font `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, tôi có thể:
 
 - Tận hưởng emoji picker của Windows 11  
-- Hiển thị đầy đủ emoji Unicode 17.0 (🫨🫠🫷🫸)  
+- Hiển thị đầy đủ emoji Unicode 17.0 (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎)  
 - Hiển thị emoji cờ quốc gia đầy màu sắc (🇻🇳🇺🇸🇯🇵)
 
 ---
@@ -197,7 +197,7 @@ No waiting for Microsoft updates. No half-measures. This is a full technical fix
 This is a curious discovery: by installing the `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` font, I was able to:
 
 - Enjoy the Windows 11-style emoji picker  
-- Fully display Unicode 17.0 emojis (🫨🫠🫷🫸)  
+- Fully display Unicode 17.0 emojis (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎)  
 - Render colorful national flag emojis (🇻🇳🇺🇸🇯🇵)
 
 ---
@@ -224,7 +224,7 @@ The `seguiemj_1_31_mod.ttf` font already supports flag emojis, but since it's ba
 
 - ✅ Retain full-color flag emojis  
 - ✅ Enjoy Fluent-style emoji visuals from Windows 11 (based on Segoe UI Emoji v1.60)  
-- ✅ Combine with `seguiemj_1_31_mod.ttf` to add Unicode 17.0 support (🫨🫠🫷🫸)
+- ✅ Combine with `seguiemj_1_31_mod.ttf` to add Unicode 17.0 support (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎)
 
 📌 Technical explanation:
 
@@ -347,7 +347,7 @@ Windows 10 和 11 默认不支持完整的 Unicode 国旗表情符号（例如 �
 这是一个有趣的发现：通过安装 `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` 字体，我可以：
 
 - 使用 Windows 11 风格的 emoji 选择器  
-- 完整显示 Unicode 17.0 的新 emoji（🫨🫠🫷🫸）  
+- 完整显示 Unicode 17.0 的新 emoji（🫪🫯🫈🧑‍🩰🫍🛘🪊🪎）  
 - 显示彩色的国家国旗 emoji（🇻🇳🇺🇸🇯🇵）
 
 ---
@@ -374,7 +374,7 @@ Windows 10 和 11 默认不支持完整的 Unicode 国旗表情符号（例如 �
 
 - ✅ 保留彩色国旗 emoji  
 - ✅ 使用 Windows 11 风格的 Fluent 3D emoji（基于 Segoe UI Emoji v1.60）  
-- ✅ 与 `seguiemj_1_31_mod.ttf` 结合，补充 Unicode 17.0 的新 emoji（🫨🫠🫷🫸）
+- ✅ 与 `seguiemj_1_31_mod.ttf` 结合，补充 Unicode 17.0 的新 emoji（🫪🫯🫈🧑‍🩰🫍🛘🪊🪎）
 
 📌 技术说明：
 
@@ -508,7 +508,7 @@ Windows 10 и 11 по умолчанию не поддерживают полн�
 Это интересное открытие: установив шрифт `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, я получил возможность:
 
 - Использовать emoji-панель в стиле Windows 11  
-- Полноценно отображать emoji из Unicode 17.0 (🫨🫠🫷🫸)  
+- Полноценно отображать emoji из Unicode 17.0 (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎)  
 - Отображать цветные emoji-флаги стран (🇻🇳🇺🇸🇯🇵)
 
 ---
