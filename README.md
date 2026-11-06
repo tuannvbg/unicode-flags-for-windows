@@ -1,10 +1,26 @@
 # 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 Support
 
-This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and Unicode 17.0 symbols (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎), using custom font stacking.
+This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and **Unicode 17.0 + 18.0** symbols (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎 🫫🫝🫌🛙🪋🪌🪍🫹🫺), using custom font stacking.
 
-📌 Ghi chú phiên bản: Tài liệu và ảnh chụp trong repo này được thực hiện vào khoảng tháng 9/2025, dựa trên Segoe UI Emoji v1.60 và Twemoji v16.0.1. Emoji mới (16.0, 17.0, 18.0...) có hiển thị được hay không phụ thuộc vào font bạn cài (ví dụ bản của Chasmical, hoặc bản tự build từ emoji-win), không phụ thuộc vào repo này. Bản font mới nhất xem tại Releases của Chasmical.
+📌 **Ghi chú phiên bản**
+Tài liệu và ảnh minh họa trong repo này được xây dựng dựa trên Twemoji và bộ tiêu chuẩn Unicode.
+Việc hiển thị emoji mới nhất (16.0, 17.0, 18.0 🫫...) phụ thuộc vào bộ font bạn cài đặt.
 
-📌 Version note: The documentation and screenshots in this repo were made around September 2025, based on Segoe UI Emoji v1.60 and Twemoji v16.0.1. Whether newer emojis (16.0, 17.0, 18.0...) display depends on the font you install (for example Chasmical's build, or one you build yourself with emoji-win), not on this repo. For the latest font, see Chasmical's Releases.
+👉 **Bản font đầy đủ hỗ trợ Emoji 18.0 mới nhất do chính tôi xây dựng** — xem tại mục **Releases** của repo này:
+- ✅ Phiên bản Noto 18.0 2D — ổn định, khuyến nghị dùng chính
+- ⏳ Phiên bản Noto 18.0 3D — đang hoàn thiện, sẽ cập nhật sớm
+
+🙌 Tham khảo thêm: Cảm ơn @Chasmical, @emoji-win và cộng đồng cho những nền tảng tham khảo quý giá.
+
+📌 **Version Note**
+Documentation and screenshots in this repository are based on Twemoji and Unicode standards.
+Display of newer emojis (16.0, 17.0, 18.0 🫫...) depends on the font package you install.
+
+👉 **Latest font with full Emoji 18.0 support built by me** — see the **Releases** section of this repository:
+- ✅ Noto 18.0 2D — stable, recommended for daily use
+- ⏳ Noto 18.0 3D — in progress, coming soon
+
+🙌 References: Thanks to @Chasmical, @emoji-win and the community for valuable foundations.
 
 📘 Available in:
 - 🇺🇸 [English](./README.en.md)
