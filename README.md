@@ -679,7 +679,10 @@ Windows 10 и 11 изначально не поддерживают полноц
 - [`perguto/Country-Flag-Emojis-for-Windows`](https://github.com/perguto/Country-Flag-Emojis-for-Windows)
 - [`llccd.eu.org`](https://llccd.eu.org/2022/02/win_flags)
 - [`13rac1/twemoji-color-font`](https://github.com/13rac1/twemoji-color-font)
-- Copilot AI – technical brainstorming partner
+- Copilot AI — technical brainstorming partner
+- ChatGPT — technical brainstorming partner
+- Grok — technical brainstorming partner
+- Dola AI — technical brainstorming & writing partner
 
 ---
 
