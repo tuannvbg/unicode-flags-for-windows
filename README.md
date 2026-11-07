@@ -10,7 +10,7 @@ Việc hiển thị emoji mới nhất (16.0, 17.0, 18.0 🫫...) phụ thuộc 
 - ✅ Phiên bản Noto 18.0 2D — ổn định, khuyến nghị dùng chính
 - ⏳ Phiên bản Noto 18.0 3D — đang hoàn thiện, sẽ cập nhật sớm
 
-🙌 Tham khảo thêm: Cảm ơn @Chasmical, @emoji-win và cộng đồng cho những nền tảng tham khảo quý giá.
+🙌 Tham khảo thêm: Cảm ơn @Chasmical, @jjjuk và cộng đồng cho những nền tảng tham khảo quý giá.
 
 📌 **Version Note**
 Documentation and screenshots in this repository are based on Twemoji and Unicode standards.
@@ -20,7 +20,7 @@ Display of newer emojis (16.0, 17.0, 18.0 🫫...) depends on the font package y
 - ✅ Noto 18.0 2D — stable, recommended for daily use
 - ⏳ Noto 18.0 3D — in progress, coming soon
 
-🙌 References: Thanks to @Chasmical, @emoji-win and the community for valuable foundations.
+🙌 References: Thanks to @Chasmical, @jjjuk  and the community for valuable foundations.
 
 📘 Available in:
 - 🇺🇸 [English](./README.en.md)
