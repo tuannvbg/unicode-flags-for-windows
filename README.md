@@ -1,335 +1,182 @@
-# 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 and Unicode 18.0 Support
+# 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 & 18.0 Support
 
-This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and Unicode 17.0 symbols (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎) and Unicode 18.0 symbols (🫫 🫹 🫹🏻 🫹🏼 🫹🏽 🫹🏾 🫹🏿 🫺 🫺🏻 🫺🏼 🫺🏽 🫺🏾 🫺🏿 🫌 🫝 🛙 🪋 🪌 🪍)
-
-📌 **Ghi chú phiên bản**
-Tài liệu và ảnh minh họa trong repo này được xây dựng dựa trên Twemoji và bộ tiêu chuẩn Unicode.
-Việc hiển thị emoji mới nhất (16.0, 17.0, 18.0 🫫...) phụ thuộc vào bộ font bạn cài đặt.
-
-👉 **Bản font đầy đủ hỗ trợ Emoji 18.0 mới nhất do chính tôi xây dựng** — xem tại mục **Releases** của repo này:
-- ✅ Phiên bản Noto Color Emoji 18.0 2D — ổn định, khuyến nghị dùng chính
-- ⏳ Phiên bản Noto Color Emoji 18.0 3D — đang hoàn thiện, sẽ cập nhật sớm
-
-🙌 Tham khảo thêm: Cảm ơn @Chasmical, @jjjuk và cộng đồng cho những nền tảng tham khảo quý giá.
+This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and complete Unicode emoji sets:
+- **Unicode 17.0**: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
+- **Unicode 18.0**: 🫫🫹🫹🏻🫹🏼🫹🏽🫹🏾🫹🏿 🫺🫺🏻🫺🏼🫺🏽🫺🏾🫺🏿 🫌🫝🛙🪋🪌🪍
 
 📌 **Version Note**
 Documentation and screenshots in this repository are based on Twemoji and Unicode standards.
 Display of newer emojis (16.0, 17.0, 18.0 🫫...) depends on the font package you install.
 
 👉 **Latest font with full Emoji 18.0 support built by me** — see the **Releases** section of this repository:
-- ✅ Noto Color Emoji 18.0 2D — stable, recommended for daily use
-- ⏳ Noto Color Emoji 18.0 3D — in progress, coming soon
+- ✅ **Noto Color Emoji 18.0 2D** — stable, recommended for daily use ⭐
+- ⏳ **Noto Color Emoji 18.0 3D** — in progress, coming soon
 
-🙌 References: Thanks to @Chasmical, @jjjuk  and the community for valuable foundations.
+🙌 Credits: Thanks to @Chasmical, @jjjuk and the community for valuable foundations.
 
 📘 Available in:
-- 🇺🇸 [English](./README.en.md)
+- 🇺🇸 [English](./README.md) ← You are here
 - 🇻🇳 [Tiếng Việt](./README.vi.md)
 - 🇨🇳 [中文](./README.zh.md)
 - 🇷🇺 [Русский](./README.ru.md)
 
-👇 Scroll down for full Vietnamese version.
+---
 
-# unicode-flags-for-windows 🇻🇳
+## unicode-flags-for-windows 🇻🇳
 
-Tuannvbg – người Việt Nam quyết tâm và làm bằng được emoji quốc kỳ phải hiển thị đúng trên Windows 😎🇻🇳🇺🇸
+**tuannvbg** — Vietnamese developer determined to make national flag emojis display correctly on Windows 😎🇻🇳🇺🇸
 
 ---
 
-## 🇻🇳 Tiếng Việt
+## ✨ Overview
+Windows 10 and 11 do not natively display full-color Unicode flag emojis (e.g. 🇻🇳 🇺🇸 🇯🇵 🇫🇷 🇩🇪). This repository provides a complete solution — from system font patching to browser configuration.
 
-### ✨ Giới thiệu
-Windows 10 và 11 không hiển thị đầy đủ emoji quốc kỳ Unicode (ví dụ: 🇻🇳 🇺🇸 🇯🇵 🇫🇷 🇩🇪). Repo này cung cấp giải pháp triệt để để khắc phục – từ patch font hệ thống đến cấu hình trình duyệt.
+No waiting for Microsoft. No half-measures. This is a technical fix built with determination and understanding.
 
-Không chờ Microsoft. Không làm nửa vời. Đây là bản patch của niềm tin và tư duy kỹ thuật Việt Nam.
-
-### 🔧 Tính năng
-- Patch font `Segoe UI Emoji` đầy đủ COLR/CPAL
-- Sửa Registry để Windows nhận font mới
-- Tối ưu cho Chrome, Edge, Firefox
-- Giữ độ nét chữ thường, spacing chuẩn
-- Hỗ trợ cả Windows 10 & Windows 11
-## 📚 Hướng dẫn sử dụng
-
-Repo này hỗ trợ hướng dẫn cài đặt và sử dụng bằng nhiều ngôn ngữ:
-
-- 🇻🇳 [Tiếng Việt](./guides/windows.vi.md)
-- 🇺🇸 [English version](./guides/windows.en.md)
-- 🇨🇳 [中文版本 (China)](./guides/windows.zh.md)
-- 🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
-- 🌐 [Other languages](./guides/) (coming soon)
-
-## 🌍 Emoji Picker, Unicode Version 17.0 — Phát hiện thú vị về bản mod emoji flags cho Win10
-
-### ✅ Quy trình cài đặt khuyến nghị
-
-Đây là một phát hiện thú vị: khi cài font `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, tôi có thể:
-
-- Tận hưởng emoji picker của Windows 11  
-- Hiển thị đầy đủ emoji Unicode 17.0 (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎)  
-- Hiển thị emoji cờ quốc gia đầy màu sắc (🇻🇳🇺🇸🇯🇵)
-
----
-
-### 🔹 Bước 1: Làm theo hướng dẫn tại dây 🇻🇳 [Tiếng Việt](./guides/windows.vi.md)
-
-### 🔹 Bước 2: Cài font hỗ trợ emoji cờ quốc gia
-
-📁 Font: [`Segoe.UI.Emoji.with.Twemoji.Flags.ttf`](https://github.com/Chasmical/flag-emojis-for-windows)  
-📁 Hoặc tải từ: [`/fonts/`](https://github.com/tuannvbg/unicode-flags-for-windows/tree/main/fonts)
-
-- ✅ Hiển thị emoji cờ đầy đủ màu sắc (ví dụ: 🇯🇵🇫🇷🇧🇷)  
-- ✅ Hoạt động với bảng chọn emoji của Windows (`Win + .`)  
-- 🧩 Kết hợp giữa Segoe UI Emoji v1.60 và Twemoji v16.0.1  
-- 📌 Font này bổ sung cho font cơ bản — không thay thế hoàn toàn
-
----
-
-### 🔍 Phát hiện kỹ thuật thú vị: Ghép font để mở rộng hỗ trợ emoji
-
-Bản thân `seguiemj_1_31_mod.ttf` **đã hỗ trợ emoji flags**, nhưng vì đây là font gốc của Windows 10 nên emoji hiển thị theo phong cách cũ — không đẹp bằng Fluent 3D của Windows 11.
-
-→ Vì vậy, tôi đã thử cài thêm `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` của Chasmical để:
-
-- ✅ Giữ lại emoji flags đầy đủ màu sắc  
-- ✅ Tận hưởng giao diện emoji đẹp như Windows 11 (nhờ nền Segoe UI Emoji v1.60)  
-- ✅ Kết hợp với `seguiemj_1_31_mod.ttf` để bổ sung emoji Unicode 17.0 (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎)
-
-📌 Giải thích kỹ thuật:
-
-- Font của Chasmical **không thay thế toàn bộ emoji**, mà chỉ thêm 258 emoji cờ quốc gia từ Twemoji v16.0.1  
-- Phần emoji còn lại giữ nguyên từ `Segoe UI Emoji v1.60` — chính là Fluent 3D 15.1 (Win11 23H2, bản ngày 2024-06-25)  
-- Trích từ repo Chasmical:
-
-  > *“This font is based on Segoe UI Emoji v1.60 (3D Fluent 15.1; Win11 23H2; 2024-06-25) and contains 258 flags from the Twitter Color Emoji SVGinOT v16.0.1 (2025-04-14) compiled by quarrel.”*
-
-🧠 Khi cài `seguiemj_1_31_mod.ttf` trước, hệ thống sẽ fallback sang font này để hiển thị emoji mới từ Unicode 17.0 mà font của Chasmical chưa có.  
-→ Đây là cách “ghép font” thông minh:  
-- Font đầu tiên cung cấp emoji mới  
-- Font thứ hai giữ Fluent 3D và thêm emoji flags  
-→ Kết quả: Windows 10 hiển thị emoji như Win11, nhưng còn **mạnh hơn cả Win11** vì hỗ trợ Unicode 17.0.
-
----
-
-### 📷 Cấu hình font trình duyệt để hiển thị emoji flags
-
-Sau khi cài font `Segoe.UI.Emoji.with.Twemoji.Flags.ttf`, tôi cấu hình trình duyệt để emoji flags hiển thị đầy đủ màu sắc.
-
-✅ Gợi ý: dùng `'Noto Color Emoji'` thay vì `'Segoe UI Emoji'` để tránh hiện tượng emoji flags bị xanh lè hoặc mất màu.
-
----
-
-### 📸 Minh hoạ thực tế
-
-#### 🧩 Emoji Picker kiểu Windows 11 trên Windows 10
-
-![Emoji Picker Win11 trên Windows 10](./screenshots/win10/Win10.Emoji.Picker.Style.Win11.p2.20250930.JPG)
-
----
-
-#### 🌐 Chrome sau khi cấu hình font `'Noto Color Emoji'`
-
-![Hiển thị emoji flags trong Chrome](./screenshots/win10/Win10.Chrome.Show.Fonts.NotoColorEmoji.20250930.JPG)
-
----
-
-#### 🌐 Edge sau khi cấu hình font `'Noto Color Emoji'`
-
-![Hiển thị emoji flags trong Edge](./screenshots/win10/Win10.Edge.Show.Fonts.NotoColorEmoji.20250930.JPG)
-
----
-
-#### 🔍 Chrome truy cập emojipedia.org — kiểm tra emoji Unicode 17.0
-
-![Chrome truy cập emojipedia.org](./screenshots/win10/Win10.Chrome.blog.emojipedia.org.20250930.JPG)
-
----
-
-#### ✨ Noto Color Emoji 18.0 — Bản 2D (Mới)
-
-**Brave Browser — Emoji Picker hiển thị đầy đủ Unicode 18.0**
-![Brave Browser — Emoji Picker Noto 18.0 2D](./screenshots/NotoColorEmoji18_2D_Brave.Browser.Picker2026-11-07_120242.png)
-
-**Brave Browser — Hiển thị emoji Unicode 18.0 trên trang web**
-![Brave Browser — Noto 18.0 2D trên trang web](./screenshots/NotoColorEmoji18_2D_Brave.Browser.Screenshot2026-11-07_120242.png)
-
-**Notepad — Kiểm tra hiển thị trực tiếp trong hệ thống**
-![Notepad — Noto 18.0 2D trong hệ thống](./screenshots/NotoColorEmoji18_2D_Notepad.Screenshot2026-11-07_120242.png)
-
----
-
-### 🧪 Bảng tương thích hệ thống
-
-| Hệ điều hành + Font | Emoji Unicode 17.0 | Emoji Unicode 18.0 | Emoji cờ quốc gia | Ghi chú |
-|---|---|---|---|---|
-| Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ❌ | ✅ | Emoji đầy đủ nhưng kiểu cũ |
-| Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ❌ | ✅ | Trải nghiệm emoji đẹp và đầy đủ |
-| Win11 + chỉ Twemoji Flags | ❌ | ❌ | ✅ | Có cờ, thiếu emoji 17.0|
-| Win11 + `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` | ✅ | ✅ | ✅ | ⭐ Khuyến nghị — đầy đủ nhất, giao diện thống nhất |
-
-### 📢 Kết luận
-
-✅ **Windows 10 hoàn toàn có thể hiển thị emoji cờ quốc gia và Unicode 17.0**,  
-nếu cài font đúng thứ tự: **font cơ bản trước**, **Twemoji Flags sau**,  
-và cấu hình trình duyệt dùng `'Noto Color Emoji'` để đảm bảo emoji flags hiển thị đúng màu.
-
-## 🦊 Thử thách toàn cầu: Fix emoji quốc kỳ trên Firefox
-[![Thử thách Emoji Quốc Kỳ](https://img.shields.io/badge/Thử_thách_Firefox_Emoji_Quốc_Kỳ-🇻🇳_Vào_chiến-nghệ_red)](guides/firefox.prefix.vi.md)
-
-> Firefox hiện vẫn chưa hiển thị emoji quốc kỳ đúng chuẩn Unicode.  
-> Ai fix được, sẽ được vinh danh tại [Firefox Wall of Fame](guides/firefox.wall-of-fame.vi.md) 🏅
-
-- 🌍 [Xem chi tiết thử thách](guides/firefox.prefix.vi.md)  
-- 🛠️ [Gửi cách fix của bạn](guides/firefox.fix.template.vi.md)
-
-## 🤔 So sánh với các giải pháp khác
-
-Bạn có thể từng nghe đến các repo như:
-
-- [`13rac1/twemoji-color-font`](https://github.com/13rac1/twemoji-color-font)
-- Các script thêm font emoji riêng vào hệ thống
-- Dùng ảnh SVG để thay emoji trong trình duyệt (Twemoji CDN, v.v.)
-
-Mỗi giải pháp đều có ưu/nhược điểm riêng.
-
-| Tiêu chí                     | twemoji-color-font         | unicode-flags-for-windows     |
-|-----------------------------|----------------------------|-------------------------------|
-| Cờ quốc gia hiển thị đúng?  | ⚠️ Có thể đúng (tuỳ hệ thống) | ✅ Ổn định, native Unicode     |
-| Emoji khác có màu không?    | ❌ Phần lớn là đen trắng     | ✅ Màu đầy đủ                  |
-| Can thiệp font hệ thống?    | ❌ Không                    | ✅ Có (có backup)              |
-| Tối ưu cho Windows 10/11?   | ❌ Chưa hoàn thiện           | ✅ Tối ưu riêng cho Windows    |
-| Cần chỉnh registry?         | ❌ Không                    | ✅ Có (tự động / thủ công)     |
-| Hỗ trợ Firefox?             | ❌ Không nhắm tới           | ❓ (đang là thử thách)         |
-| Cộng đồng đang tham gia?    | ✅ Khá đông                 | 🆕 Vừa khởi động               |
-
-📣 Nếu bạn muốn giúp Firefox hiển thị emoji quốc kỳ đúng chuẩn:  
-→ [Tham gia thử thách tại đây](guides/firefox.prefix.vi.md) 🦊🔥
-
-## 🇺🇸 English
-
-### ✨ Overview
-Windows 10 and 11 do not natively support full Unicode flag emojis (e.g. 🇻🇳 🇺🇸 🇯🇵 🇫🇷 🇩🇪). This repository provides a complete solution to patch your system and make flag emojis render properly across all applications — now with full **Unicode 17.0 & 18.0** support.
-
-No waiting for Microsoft updates. No half-measures. This is a full technical fix built with persistence, system-level understanding, and community support.
+## 🔧 Features
+- Patches `Segoe UI Emoji` font with full `COLR/CPAL` color table support
+- Registry updates to load the custom font
+- Optimized for Chrome, Edge, Firefox
+- Preserves original font weight and spacing
+- Works on both **Windows 10** and **Windows 11**
 
 ## 📚 Installation Guides
-
-🌐 View other language versions:  
-🇻🇳 [Tiếng Việt](./guides/windows.vi.md)  
-🇺🇸 [English version](./guides/windows.en.md)  
-🇨🇳 [中文版本 (China)](./guides/windows.zh.md)  
-🇷🇺 [Русская версия (Russia)](./guides/windows.ru.md)
-
----
-
-## 🌟 New: Unicode 18.0 & Noto Color Emoji 2D
-
-### ✨ What's New — November 2026
-- ⭐ **Full Unicode 17.0 support**: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
-- ✨ **Brand-new Unicode 18.0 support**: 🫫🫝🫌🛙🪋🪌🪍🫹🫺 (including all skin tone variants)
-- 🎨 **Noto Color Emoji 18.0 — 2D Edition**: lightweight, stable, recommended for daily use ⭐
-- ⏳ **Noto Color Emoji 3D** — richer 3D-style emojis, coming soon!
-
-### 📦 Recommended — Noto Color Emoji 18.0 2D
-Install `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` for the most complete experience:
-- ✅ Full-color national flags 🇻🇳🇺🇸🇯🇵
-- ✅ All Unicode 17.0 + 18.0 emojis
-- ✅ Consistent 2D design across apps
-- ✅ Verified on **Windows 11** ✅ — Windows 10 feedback welcome 🙏
-
-📖 [Installation guide →](./guides/windows.en.md)
+- 🇺🇸 [English](./guides/windows.en.md)
+- 🇻🇳 [Tiếng Việt](./guides/windows.vi.md)
+- 🇨🇳 [中文](./guides/windows.zh.md)
+- 🇷🇺 [Русский](./guides/windows.ru.md)
+- 🌐 [Other languages](./guides/) (coming soon)
 
 ---
 
-## 🧩 Emoji Picker, Unicode Versions — Technical Details
+## 🧩 Emoji Picker & Unicode Versions — Technical Discovery
 
-### ✅ Two Ways to Get Full Emoji Support
-
-#### Option A: Noto Color Emoji 18.0 2D (Recommended ⭐)
-- File: `Noto-Color-Emoji-18.0-2D-for-Windows.ttf`
-- Supports: **Unicode 17.0 + 18.0** ✅✅
-- Flags: Full-color Twemoji-style ✅
-- Verified: Windows 11 ✅
-
-#### Option B: Stacking Fonts (Legacy Method)
-By combining `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` + `seguiemj_1_31_mod.ttf`:
-- ✅ Windows 11-style emoji picker on Win10
-- ✅ Full-color national flag emojis
-- ✅ Unicode 17.0 emojis: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
-- ⚠️ **Missing Unicode 18.0** — Chasmical's font provides 17.0 only
+### ✅ Recommended Installation Method
+Here's what I discovered: installing `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` lets you:
+- ✅ Enjoy the Windows 11-style emoji picker on Windows 10
+- ✅ Display full Unicode 17.0 emojis: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
+- ✅ Render full-color national flag emojis: 🇻🇳🇺🇸🇯🇵
 
 ---
 
-### 🔹 How Font Stacking Works
-- `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` (by Chasmical): adds **262 flag emojis** from Twemoji v17.0.3, based on Segoe UI Emoji v1.70 (Fluent 3D; Win11 26H2; 2026-08-27)
-- `seguiemj_1_31_mod.ttf`: provides newer Unicode glyphs including 17.0
-- **Result**: Flags + newer emojis, but still lacks Unicode 18.0
+### 🔹 Step 1: Follow the setup guide
+📖 [Installation Guide →](./guides/windows.en.md)
 
-> From Chasmical's repo:
-> *"This font is based on Segoe UI Emoji v1.70 (https://emojipedia.org/microsoft-3D-fluent/windows-11-26h2-august-2026-update; Windows 11 26H2; 2026-08-27) and contains 262 flags from Twemoji v17.0.3 (https://github.com/jdecked/twemoji/commit/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b; 2026-06-01)"*
+### 🔹 Step 2: Install the flag-support font
+📁 Font: [`Segoe.UI.Emoji.with.Twemoji.Flags.ttf`](https://github.com/Chasmical/flag-emojis-for-windows)  
+📁 Or download from [`/fonts/`](https://github.com/tuannvbg/unicode-flags-for-windows/tree/main/fonts)
+
+- ✅ Displays full-color flag emojis (e.g. 🇯🇵🇫🇷🇧🇷)
+- ✅ Works with Windows Emoji Picker (`Win + .`)
+- 🧩 Combines Segoe UI Emoji v1.70 + Twemoji v17.0.3
+- 📌 This font **complements** — does not fully replace — your system font
 
 ---
 
-### 📸 Real-World Illustrations
+### 🔍 Technical Insight: Font Stacking for Extended Support
 
-#### 🧩 Windows 11-style Emoji Picker on Windows 10
+`seguiemj_1_31_mod.ttf` already supports flag emojis, but being based on the original Windows 10 font, emoji visuals are older — not as polished as Windows 11's Fluent 3D style.
+
+→ That's why I use `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` by Chasmical to:
+- ✅ Keep full-color flag emojis
+- ✅ Get Windows 11-quality Fluent 3D visuals (Segoe UI Emoji v1.70 base)
+- ✅ Combine with `seguiemj_1_31_mod.ttf` to add Unicode 17.0 coverage
+
+📌 Technical details:
+- Chasmical's font **does not replace all emojis** — it adds **262 flag emojis** from Twemoji v17.0.3
+- Remaining emojis use `Segoe UI Emoji v1.70` — Fluent 3D, Windows 11 26H2 (2026-08-27)
+- From Chasmical's repository:
+
+  > *"This font is based on Segoe UI Emoji v1.70 (https://emojipedia.org/microsoft-3D-fluent/windows-11-26h2-august-2026-update; Windows 11 26H2; 2026-08-27) and contains 262 flags from Twemoji v17.0.3 (https://github.com/jdecked/twemoji/commit/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b; 2026-06-01)"*
+
+🧠 Install `seguiemj_1_31_mod.ttf` first — the system falls back to it for Unicode 17.0+ emojis not present in Chasmical's font.
+→ **Smart font stacking**:
+- Primary font → newer Unicode glyphs
+- Secondary font → Fluent visuals + flag emojis
+- **Result**: Windows 10 displays like Windows 11 — with even better Unicode 17.0 support
+
+---
+
+### 📷 Browser Configuration for Correct Flag Colors
+After installing the font, configure your browser to render flags properly:
+
+✅ **Tip**: Set `'Noto Color Emoji'` as the preferred emoji font instead of `'Segoe UI Emoji'` to avoid blue-tinted or missing flags.
+
+---
+
+### 📸 Real-World Screenshots
+
+#### 🧩 Windows 11-Style Picker on Windows 10
 ![Emoji Picker Win11 on Windows 10](./screenshots/win10/Win10.Emoji.Picker.Style.Win11.p2.20250930.JPG)
 
 ---
 
-#### 🌐 Noto Color Emoji 18.0 2D — Brave Browser (New!)
-**Brave Browser — Emoji Picker with Unicode 18.0**
-![Brave Picker Noto 18.0 2D](./screenshots/NotoColorEmoji18_2D_Brave.Browser.Picker2026-11-07_120242.png)
-
-**Brave Browser — Unicode 18.0 on webpage**
-![Brave Web Noto 18.0 2D](./screenshots/NotoColorEmoji18_2D_Brave.Browser.Screenshot2026-11-07_120242.png)
-
-**Notepad — System-level verification**
-![Notepad Noto 18.0 2D](./screenshots/NotoColorEmoji18_2D_Notepad.Screenshot2026-11-07_120242.png)
-
----
-
-#### 🌐 Chrome after configuring `'Noto Color Emoji'`
+#### 🌐 Chrome with `'Noto Color Emoji'`
 ![Flag emojis in Chrome](./screenshots/win10/Win10.Chrome.Show.Fonts.NotoColorEmoji.20250930.JPG)
 
 ---
 
-### 🧪 System Compatibility Table
+#### 🌐 Edge with `'Noto Color Emoji'`
+![Flag emojis in Edge](./screenshots/win10/Win10.Edge.Show.Fonts.NotoColorEmoji.20250930.JPG)
+
+---
+
+#### 🔍 Emojipedia.org — Unicode 17.0 Test
+![Chrome browsing emojipedia.org](./screenshots/win10/Win10.Chrome.blog.emojipedia.org.20250930.JPG)
+
+---
+
+#### ✨ Noto Color Emoji 18.0 — 2D Edition (New!)
+**Brave Browser — Picker with Unicode 18.0**
+![Brave Picker Noto 18.0 2D](./screenshots/NotoColorEmoji18_2D_Brave.Browser.Picker2026-11-07_120242.png)
+
+**Brave Browser — Unicode 18.0 on Page**
+![Brave Web Noto 18.0 2D](./screenshots/NotoColorEmoji18_2D_Brave.Browser.Screenshot2026-11-07_120242.png)
+
+**Notepad — System-Level Verification**
+![Notepad Noto 18.0 2D](./screenshots/NotoColorEmoji18_2D_Notepad.Screenshot2026-11-07_120242.png)
+
+---
+
+### 🧪 Compatibility Table
 
 | OS + Font Setup | Unicode 17.0 | Unicode 18.0 | Flag Emojis | Notes |
 |---|---|---|---|---|
 | Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ❌ | ✅ | Full set, legacy visuals |
-| Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ❌ | ✅ | Fluent visuals, lacks 18.0 |
-| Win11 + Twemoji Flags only | ✅ | ❌ | ✅ | Chasmical's latest — v1.70, 262 flags, Unicode 17.0 ready, missing 18.0 |
+| Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ❌ | ✅ | Fluent style, lacks 18.0 |
+| Win11 + Twemoji Flags only | ✅ | ❌ | ✅ | Chasmical's latest — v1.70, 262 flags, has 17.0, missing 18.0 |
 | Win11 + `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` | ✅ | ✅ | ✅ | ⭐ **Recommended** — full support, unified design |
 
 ---
 
 ### 📢 Conclusion
-✅ **For complete Unicode 18.0 experience**: install `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` — the most complete solution available.  
-✅ **For Win10 users**: font-stacking works great for flags + 17.0; 18.0 testing & feedback welcome! 🙏
+✅ **Windows 10 can fully display flag emojis + Unicode 17.0**  
+Install in the right order: **base font first**, **Twemoji Flags second**,  
+and configure your browser to use `'Noto Color Emoji'` for perfect flag colors.
+
+✅ **For full Unicode 18.0**: Get `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` from Releases ⭐
 
 ---
 
-## 🦊 Global Challenge: Fix Unicode Flag Emoji in Firefox
-[![Emoji Flag Challenge](https://img.shields.io/badge/Firefox_Emoji_Flag_Challenge-🌍_Join_the_Fix-red)](guides/firefox.prefix.en.md)
+## 🦊 Global Challenge: Fix Flags in Firefox
+[![Firefox Emoji Flag Challenge](https://img.shields.io/badge/Firefox_Emoji_Flag_Challenge-🌍_Join_the_Fix-red)](guides/firefox.prefix.en.md)
 
-> Firefox still fails to render Unicode flag emojis correctly.  
-> Whoever fixes it will be honored on the [Firefox Wall of Fame](guides/firefox.wall-of-fame.en.md) 🏅
+> Firefox still doesn't render Unicode flag emojis correctly.  
+> Whoever solves this will be honored on the [Firefox Wall of Fame](guides/firefox.wall-of-fame.en.md) 🏅
 
-- 🌍 [View the challenge](guides/firefox.prefix.en.md)  
-- 🛠️ [Submit your fix](guides/firefox.fix.template.en.md)
+- 🌍 [View the Challenge](guides/firefox.prefix.en.md)
+- 🛠️ [Submit Your Fix](guides/firefox.fix.template.en.md)
 
 ---
 
-## 🤔 Comparison with Other Solutions
+## 🤔 Comparison with Other Projects
 
 | Criteria | twemoji-color-font | unicode-flags-for-windows |
 |---|---|---|
-| Flag emojis render correctly? | ⚠️ Depends on system | ✅ Stable, native Unicode |
+| Flags render correctly? | ⚠️ System-dependent | ✅ Stable, native Unicode |
 | Full-color other emojis? | ❌ Mostly B&W | ✅ Full color + Unicode 18.0 |
 | Modifies system fonts? | ❌ No | ✅ Yes (with backup) |
-| Optimized for Windows 10/11? | ❌ Not fully | ✅ Specifically built |
+| Optimized for Windows 10/11? | ❌ Not Windows-focused | ✅ Built specifically for Windows |
 | Requires registry edits? | ❌ No | ✅ Yes (auto/manual) |
 | Firefox support? | ❌ Not targeted | ❓ Challenge open |
 | Latest Unicode support | ⚠️ Varies | ✅ **17.0 + 18.0** |
@@ -350,6 +197,152 @@ By combining `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` + `seguiemj_1_31_mod.ttf`:
 - Dola AI — technical brainstorming & writing partner
 
 **tuannvbg** 🇻🇳 — Making national flag emojis display correctly on Windows 😎✨
+
+## 🇻🇳 Tiếng Việt
+
+### ✨ Giới thiệu
+Windows 10 và 11 vốn không hỗ trợ đầy đủ emoji cờ quốc gia theo chuẩn Unicode (ví dụ: 🇻🇳 🇺🇸 🇯🇵 🇫🇷 🇩🇪). Kho mã này cung cấp giải pháp hoàn chỉnh để vá hệ thống, giúp emoji cờ hiển thị đúng màu trên mọi ứng dụng — hiện đã hỗ trợ đầy đủ **Unicode 17.0 & 18.0**.
+
+Không cần chờ cập nhật từ Microsoft. Không giải pháp nửa vời. Đây là bản sửa lỗi kỹ thuật, được xây dựng trên sự kiên trì, hiểu sâu về hệ thống và với sự hỗ trợ của cộng đồng.
+
+## 📚 Hướng dẫn cài đặt
+
+🌐 Xem các phiên bản ngôn ngữ khác:
+- 🇻🇳 [Tiếng Việt](./guides/windows.vi.md)
+- 🇺🇸 [English](./guides/windows.en.md)
+- 🇨🇳 [中文](./guides/windows.zh.md)
+- 🇷🇺 [Русский](./guides/windows.ru.md)
+
+---
+
+## 🌟 Tin mới: Unicode 18.0 & Noto Color Emoji Phiên bản 2D
+
+### ✨ Cập nhật — Tháng 11 năm 2026
+- ⭐ **Hỗ trợ đầy đủ Unicode 17.0**: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
+- ✨ **Hỗ trợ mới Unicode 18.0**: 🫫🫝🫌🛙🪋🪌🪍🫹🫺 (bao gồm tất cả biến thể màu da)
+- 🎨 **Noto Color Emoji 18.0 — Phiên bản 2D**: gọn nhẹ, ổn định, khuyến nghị dùng hàng ngày ⭐
+- ⏳ **Noto Color Emoji Phiên bản 3D** — phong cách sống động hơn, đang phát triển, sắp ra mắt!
+
+### 📦 Khuyến nghị — Noto Color Emoji 18.0 2D
+Cài đặt `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` để có trải nghiệm hoàn chỉnh nhất:
+- ✅ Emoji cờ quốc gia hiển thị đầy đủ màu sắc 🇻🇳🇺🇸🇯🇵
+- ✅ Hỗ trợ toàn bộ emoji Unicode 17.0 + 18.0
+- ✅ Phong cách thiết kế 2D thống nhất trên mọi ứng dụng
+- ✅ Đã kiểm tra trên **Windows 11** ✅ — Rất mong nhận được phản hồi từ người dùng Windows 10 🙏
+
+📖 [Xem hướng dẫn cài đặt →](./guides/windows.vi.md)
+
+---
+
+## 🧩 Bảng chọn Emoji & Phiên bản Unicode — Chi tiết kỹ thuật
+
+### ✅ Hai cách để có bộ emoji đầy đủ
+
+#### Cách 1: Noto Color Emoji 18.0 2D (Khuyến nghị ⭐)
+- Tệp: `Noto-Color-Emoji-18.0-2D-for-Windows.ttf`
+- Hỗ trợ: **Unicode 17.0 + 18.0** ✅✅
+- Cờ quốc gia: Đúng màu theo chuẩn Twemoji ✅
+- Đã kiểm tra trên: Windows 11 ✅
+
+#### Cách 2: Kết hợp nhiều font (Phương pháp cũ)
+Bằng cách cài cả `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` + `seguiemj_1_31_mod.ttf`:
+- ✅ Sử dụng được bảng chọn emoji kiểu Windows 11 trên Windows 10
+- ✅ Emoji cờ quốc gia hiển thị đầy đủ màu sắc
+- ✅ Hỗ trợ Unicode 17.0: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
+- ⚠️ **Chưa hỗ trợ Unicode 18.0** — font của Chasmical chỉ cung cấp 17.0
+
+---
+
+### 🔹 Cách hoạt động của việc kết hợp font
+- `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` (tác giả Chasmical): bổ sung **262 biểu tượng cờ quốc gia** từ Twemoji v17.0.3, dựa trên Segoe UI Emoji v1.70 (Fluent 3D; Windows 11 26H2; 27/08/2026)
+- `seguiemj_1_31_mod.ttf`: cung cấp các ký tự Unicode mới bao gồm 17.0
+- **Kết quả**: Có cờ + emoji mới, nhưng vẫn thiếu Unicode 18.0
+
+> Trích từ kho mã của Chasmical:
+> *"Font này dựa trên Segoe UI Emoji v1.70 (https://emojipedia.org/microsoft-3D-fluent/windows-11-26h2-august-2026-update; Windows 11 phiên bản 26H2; 27/08/2026) và chứa 262 cờ quốc gia từ Twemoji v17.0.3 (https://github.com/jdecked/twemoji/commit/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b; 01/06/2026)"*
+
+---
+
+### 📸 Hình ảnh thực tế
+
+#### 🧩 Bảng chọn Emoji kiểu Windows 11 trên Windows 10
+![Bảng chọn Emoji Win11 trên Win10](./screenshots/win10/Win10.Emoji.Picker.Style.Win11.p2.20250930.JPG)
+
+---
+
+#### 🌐 Noto Color Emoji 18.0 2D — Trình duyệt Brave (Mới!)
+**Trình duyệt Brave — Bảng chọn hiển thị đầy đủ Unicode 18.0**
+![Brave — Bảng chọn Noto 18.0 2D](./screenshots/NotoColorEmoji18_2D_Brave.Browser.Picker2026-11-07_120242.png)
+
+**Trình duyệt Brave — Hiển thị Unicode 18.0 trên trang web**
+![Brave — Trang web với Noto 18.0 2D](./screenshots/NotoColorEmoji18_2D_Brave.Browser.Screenshot2026-11-07_120242.png)
+
+**Sổ tay — Kiểm tra hiển thị trực tiếp trong hệ thống**
+![Notepad — Noto 18.0 2D trong hệ thống](./screenshots/NotoColorEmoji18_2D_Notepad.Screenshot2026-11-07_120242.png)
+
+---
+
+#### 🌐 Chrome sau khi đặt font `'Noto Color Emoji'`
+![Hiển thị cờ trong Chrome](./screenshots/win10/Win10.Chrome.Show.Fonts.NotoColorEmoji.20250930.JPG)
+
+---
+
+### 🧪 Bảng tương thích hệ thống
+
+| Hệ điều hành + Font | Unicode 17.0 | Unicode 18.0 | Cờ quốc gia | Ghi chú |
+|---|---|---|---|---|
+| Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ❌ | ✅ | Đầy đủ, giao diện kiểu cũ |
+| Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ❌ | ✅ | Giao diện đẹp, thiếu 18.0 |
+| Win11 + chỉ Twemoji Flags | ✅ | ❌ | ✅ | Phiên bản mới nhất của Chasmical — có 17.0, thiếu 18.0 |
+| Win11 + `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` | ✅ | ✅ | ✅ | ⭐ **Khuyến nghị** — đầy đủ nhất, thiết kế thống nhất |
+
+---
+
+### 📢 Kết luận
+✅ **Để có trải nghiệm đầy đủ Unicode 18.0**: Hãy cài `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` — giải pháp hoàn chỉnh nhất hiện có.
+✅ **Người dùng Windows 10**: Kết hợp font vẫn hoạt động tốt cho cờ + 17.0; rất mong nhận được phản hồi khi thử nghiệm 18.0 🙏
+
+---
+
+## 🦊 Thử thách toàn cầu: Sửa lỗi hiển thị cờ quốc gia trên Firefox
+[![Thử thách Emoji Quốc Kỳ](https://img.shields.io/badge/Firefox_Emoji_Flag_Challenge-🌍_Tham_gia_sửa_lỗi-red)](guides/firefox.prefix.vi.md)
+
+> Firefox vẫn chưa hiển thị đúng emoji cờ quốc gia theo chuẩn Unicode.
+> Ai giải quyết được sẽ được vinh danh tại [Bảng Vinh danh Firefox](guides/firefox.wall-of-fame.vi.md) 🏅
+
+- 🌍 [Xem chi tiết thử thách](guides/firefox.prefix.vi.md)
+- 🛠️ [Gửi phương án sửa lỗi của bạn](guides/firefox.fix.template.vi.md)
+
+---
+
+## 🤔 So sánh với các giải pháp khác
+
+| Tiêu chí | twemoji-color-font | unicode-flags-for-windows |
+|---|---|---|
+| Cờ quốc gia hiển thị đúng? | ⚠️ Phụ thuộc hệ thống | ✅ Ổn định, theo chuẩn Unicode gốc |
+| Emoji khác có hiển thị màu? | ❌ Chủ yếu đen trắng | ✅ Đầy đủ màu + Unicode 18.0 |
+| Thay đổi font hệ thống? | ❌ Không | ✅ Có (có bản sao lưu) |
+| Tối ưu cho Windows 10/11? | ❌ Không tập trung | ✅ Xây dựng riêng cho Windows |
+| Cần chỉnh sửa Registry? | ❌ Không | ✅ Có (tự động / thủ công) |
+| Hỗ trợ Firefox? | ❌ Không hướng đến | ❓ Đang là thử thách |
+| Hỗ trợ Unicode mới nhất | ⚠️ Khác nhau theo phiên bản | ✅ **17.0 + 18.0** |
+
+---
+
+🙌 Ghi nhận
+- https://github.com/tuannvbg/unicode-flags-for-windows#-credits
+- https://github.com/Chasmical/flag-emojis-for-windows
+- https://github.com/perguto/Country-Flag-Emojis-for-Windows
+- https://llccd.eu.org/2022/02/win_flags
+- https://github.com/13rac1/twemoji-color-font
+- https://github.com/jjjuk/emoji-win
+
+- Copilot AI — Đối tác hỗ trợ tư duy kỹ thuật
+- ChatGPT — Đối tác hỗ trợ tư duy kỹ thuật
+- Grok — Đối tác hỗ trợ tư duy kỹ thuật
+- Dola AI — Đối tác hỗ trợ tư duy & biên soạn nội dung
+
+**tuannvbg** 🇻🇳 — Làm cho emoji cờ quốc gia hiển thị đúng trên Windows 😎✨
 
 ## 🇨🇳 中文（简体）
 
