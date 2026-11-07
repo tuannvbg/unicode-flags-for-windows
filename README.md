@@ -7,8 +7,8 @@ Tài liệu và ảnh minh họa trong repo này được xây dựng dựa trê
 Việc hiển thị emoji mới nhất (16.0, 17.0, 18.0 🫫...) phụ thuộc vào bộ font bạn cài đặt.
 
 👉 **Bản font đầy đủ hỗ trợ Emoji 18.0 mới nhất do chính tôi xây dựng** — xem tại mục **Releases** của repo này:
-- ✅ Phiên bản Noto 18.0 2D — ổn định, khuyến nghị dùng chính
-- ⏳ Phiên bản Noto 18.0 3D — đang hoàn thiện, sẽ cập nhật sớm
+- ✅ Phiên bản Noto Color Emoji 18.0 2D — ổn định, khuyến nghị dùng chính
+- ⏳ Phiên bản Noto Color Emoji 18.0 3D — đang hoàn thiện, sẽ cập nhật sớm
 
 🙌 Tham khảo thêm: Cảm ơn @Chasmical, @jjjuk và cộng đồng cho những nền tảng tham khảo quý giá.
 
@@ -17,8 +17,8 @@ Documentation and screenshots in this repository are based on Twemoji and Unicod
 Display of newer emojis (16.0, 17.0, 18.0 🫫...) depends on the font package you install.
 
 👉 **Latest font with full Emoji 18.0 support built by me** — see the **Releases** section of this repository:
-- ✅ Noto 18.0 2D — stable, recommended for daily use
-- ⏳ Noto 18.0 3D — in progress, coming soon
+- ✅ Noto Color Emoji 18.0 2D — stable, recommended for daily use
+- ⏳ Noto Color Emoji 18.0 3D — in progress, coming soon
 
 🙌 References: Thanks to @Chasmical, @jjjuk  and the community for valuable foundations.
 
