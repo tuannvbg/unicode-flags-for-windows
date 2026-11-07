@@ -1,6 +1,6 @@
 # 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 and Unicode 18.0 Support
 
-This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and Unicode 17.0 symbols (🫪🫯🫈🫍🛘🪊🪎) and Unicode 18.0 symbols (🫫 🫹 🫹🏻 🫹🏼 🫹🏽 🫹🏾 🫹🏿 🫺 🫺🏻 🫺🏼 🫺🏽 🫺🏾 🫺🏿 🫌 🫝 🛙 🪋 🪌 🪍)
+This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and Unicode 17.0 symbols (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎) and Unicode 18.0 symbols (🫫 🫹 🫹🏻 🫹🏼 🫹🏽 🫹🏾 🫹🏿 🫺 🫺🏻 🫺🏼 🫺🏽 🫺🏾 🫺🏿 🫌 🫝 🛙 🪋 🪌 🪍)
 
 📌 **Ghi chú phiên bản**
 Tài liệu và ảnh minh họa trong repo này được xây dựng dựa trên Twemoji và bộ tiêu chuẩn Unicode.
@@ -551,7 +551,7 @@ Windows 10 и 11 по умолчанию не поддерживают полн�
 
 - ✅ Сохранить цветные emoji-флаги  
 - ✅ Получить визуальный стиль emoji, как в Windows 11 (на базе Segoe UI Emoji v1.60)  
-- ✅ Совместить с `seguiemj_1_31_mod.ttf` для поддержки Unicode 17.0 (🫨🫠🫷🫸)
+- ✅ Совместить с `seguiemj_1_31_mod.ttf` для поддержки Unicode 17.0 (🫪🫯🫈🧑‍🩰🫍🛘🪊🪎)
 
 📌 Технические детали:
 
