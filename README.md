@@ -10,6 +10,7 @@ Display of newer emojis (16.0, 17.0, 18.0 🫫...) depends on the font package y
 
 👉 **Latest font with full Emoji 18.0 support built by me** — see the **Releases** section of this repository:
 - ✅ **Noto Color Emoji 18.0 2D** — stable, recommended for daily use ⭐
+- ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — fixes incorrect China flag 🇨🇳 (resolves issue #3)
 - ⏳ **Noto Color Emoji 18.0 3D** — in progress, coming soon
 
 🙌 Credits: Thanks to @Chasmical, @jjjuk and the community for valuable foundations.
@@ -94,7 +95,10 @@ Here's what I discovered: installing `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` let
 - Primary font → newer Unicode glyphs
 - Secondary font → Fluent visuals + flag emojis
 - **Result**: Windows 10 displays like Windows 11 — with even better Unicode 17.0 support
-
+### 🇨🇳 China flag fix (issue #3)
+`seguiemj_1_33_mod.ttf` previously showed an incorrect historical flag for 🇨🇳.  
+The fixed version `seguiemj_1_33_mod_CN_fixed.ttf` replaces it with the modern PRC flag.  
+Idea: **Tuannvbg** — Implementation: **Grok (xAI)**.
 ---
 
 ### 📷 Browser Configuration for Correct Flag Colors
@@ -144,6 +148,7 @@ After installing the font, configure your browser to render flags properly:
 |---|---|---|---|---|
 | Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ❌ | ✅ | Full set, legacy visuals |
 | Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ❌ | ✅ | Fluent style, lacks 18.0 |
+| Win11 + `seguiemj_1_33_mod_CN_fixed.ttf` | ✅ | ❌ | ✅ | Fixed China flag 🇨🇳 (issue #3) |
 | Win11 + Twemoji Flags only | ✅ | ❌ | ✅ | Chasmical's latest — v1.70, 262 flags, has 17.0, missing 18.0 |
 | Win11 + `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` | ✅ | ✅ | ✅ | ⭐ **Recommended** — full support, unified design |
 
@@ -221,6 +226,7 @@ Không cần chờ cập nhật từ Microsoft. Không giải pháp nửa vời.
 - ⭐ **Hỗ trợ đầy đủ Unicode 17.0**: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
 - ✨ **Hỗ trợ mới Unicode 18.0**: 🫫🫝🫌🛙🪋🪌🪍🫹🫺 (bao gồm tất cả biến thể màu da)
 - 🎨 **Noto Color Emoji 18.0 — Phiên bản 2D**: gọn nhẹ, ổn định, khuyến nghị dùng hàng ngày ⭐
+- ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — sửa lỗi cờ Trung Quốc 🇨🇳 (giải quyết issue #3)
 - ⏳ **Noto Color Emoji Phiên bản 3D** — phong cách sống động hơn, đang phát triển, sắp ra mắt!
 
 ### 📦 Khuyến nghị — Noto Color Emoji 18.0 2D
@@ -229,6 +235,11 @@ Cài đặt `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` để có trải nghiệm
 - ✅ Hỗ trợ toàn bộ emoji Unicode 17.0 + 18.0
 - ✅ Phong cách thiết kế 2D thống nhất trên mọi ứng dụng
 - ✅ Đã kiểm tra trên **Windows 11** ✅ — Rất mong nhận được phản hồi từ người dùng Windows 10 🙏
+  
+### 🇨🇳 Sửa cờ Trung Quốc (issue #3)
+`seguiemj_1_33_mod.ttf` trước đây hiển thị cờ lịch sử sai cho 🇨🇳.  
+Bản sửa `seguiemj_1_33_mod_CN_fixed.ttf` thay bằng cờ PRC hiện đại.  
+Ý tưởng: **Tuannvbg** — Thực hiện: **Grok (xAI)**.
 
 📖 [Xem hướng dẫn cài đặt →](./guides/windows.vi.md)
 
@@ -293,6 +304,7 @@ Bằng cách cài cả `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` + `seguiemj_1_31_
 |---|---|---|---|---|
 | Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ❌ | ✅ | Đầy đủ, giao diện kiểu cũ |
 | Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ❌ | ✅ | Giao diện đẹp, thiếu 18.0 |
+| Win11 + `seguiemj_1_33_mod_CN_fixed.ttf` | ✅ | ❌ | ✅ | Đã sửa cờ Trung Quốc 🇨🇳 (issue #3) |
 | Win11 + chỉ Twemoji Flags | ✅ | ❌ | ✅ | Phiên bản mới nhất của Chasmical — có 17.0, thiếu 18.0 |
 | Win11 + `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` | ✅ | ✅ | ✅ | ⭐ **Khuyến nghị** — đầy đủ nhất, thiết kế thống nhất |
 
@@ -367,6 +379,7 @@ Windows 10 和 11 原生无法完整显示 Unicode 标准国旗表情符号（�
 - ⭐ **全面支持 Unicode 17.0**：🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
 - ✨ **全新支持 Unicode 18.0**：🫫🫝🫌🛙🪋🪌🪍🫹🫺（含所有肤色变体）
 - 🎨 **Noto 彩色表情 18.0 — 2D 版**：轻量稳定，推荐日常使用 ⭐
+- ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — 修复错误的中国国旗 🇨🇳（解决 issue #3）
 - ⏳ **Noto 3D 版**：更生动立体的样式，开发中，敬请期待！
 
 ### 📦 推荐方案 — Noto 彩色表情 18.0 2D 版
@@ -375,6 +388,11 @@ Windows 10 和 11 原生无法完整显示 Unicode 标准国旗表情符号（�
 - ✅ 同时支持 Unicode 17.0 + 18.0 全部表情
 - ✅ 全应用统一 2D 视觉风格
 - ✅ 已在 **Windows 11** 实测通过 ✅ — 欢迎 Windows 10 用户反馈体验 🙏
+  
+### 🇨🇳 中国国旗修复（issue #3）
+`seguiemj_1_33_mod.ttf` 此前显示的是错误的历史旗帜 🇨🇳。  
+修复版 `seguiemj_1_33_mod_CN_fixed.ttf` 已替换为现代中华人民共和国国旗。  
+想法：**Tuannvbg** — 实现：**Grok (xAI)**。
 
 📖 [查看安装指南 →](./guides/windows.zh.md)
 
@@ -439,6 +457,7 @@ Windows 10 和 11 原生无法完整显示 Unicode 标准国旗表情符号（�
 |---|---|---|---|---|
 | Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ❌ | ✅ | 功能完整，样式为旧版 |
 | Win10 + `seguiemj_1_31_mod.ttf` + Twemoji 国旗包 | ✅ | ❌ | ✅ | 界面美观，缺少 18.0 |
+| Win11 + `seguiemj_1_33_mod_CN_fixed.ttf` | ✅ | ❌ | ✅ | 已修复中国国旗 🇨🇳（issue #3） |
 | Win11 + 仅安装 Twemoji 国旗包 | ✅ | ❌ | ✅ | Chasmical 最新版 — 含 17.0，缺少 18.0 |
 | Win11 + `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` | ✅ | ✅ | ✅ | ⭐ **首选推荐** — 功能最全，风格统一 |
 
@@ -513,6 +532,7 @@ Windows 10 и 11 изначально не поддерживают полноц
 - ⭐ **Полная поддержка Unicode 17.0**: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
 - ✨ **Новинка: поддержка Unicode 18.0**: 🫫🫝🫌🛙🪋🪌🪍🫹🫺 (включая все варианты оттенков кожи)
 - 🎨 **Noto Color Emoji 18.0 — версия 2D**: легковесная, стабильная, рекомендуется для повседневного использования ⭐
+- ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — исправляет неверный флаг Китая 🇨🇳 (решает issue #3)
 - ⏳ **Noto 3D** — объёмные эмодзи, в разработке, скоро появятся!
 
 ### 📦 Рекомендуемый вариант — Noto Color Emoji 18.0 2D
@@ -521,6 +541,11 @@ Windows 10 и 11 изначально не поддерживают полноц
 - ✅ Поддержка всех эмодзи Unicode 17.0 + 18.0
 - ✅ Единый стиль 2D во всех приложениях
 - ✅ Проверено на **Windows 11** ✅ — отзывы от пользователей Windows 10 приветствуются 🙏
+  
+### 🇨🇳 Исправление флага Китая (issue #3)
+`seguiemj_1_33_mod.ttf` ранее отображал неверный исторический флаг для 🇨🇳.  
+Исправленная версия `seguiemj_1_33_mod_CN_fixed.ttf` заменяет его современным флагом КНР.  
+Идея: **Tuannvbg** — Реализация: **Grok (xAI)**.
 
 📖 [Подробное руководство по установке →](./guides/windows.ru.md)
 
@@ -585,6 +610,7 @@ Windows 10 и 11 изначально не поддерживают полноц
 |---|---|---|---|---|
 | Win10 + `seguiemj_1_31_mod.ttf` | ✅ | ❌ | ✅ | Полный набор, устаревший дизайн |
 | Win10 + `seguiemj_1_31_mod.ttf` + Twemoji Flags | ✅ | ❌ | ✅ | Современный вид, отсутствует 18.0 |
+| Win11 + `seguiemj_1_33_mod_CN_fixed.ttf` | ✅ | ❌ | ✅ | Исправлен флаг Китая 🇨🇳 (issue #3) |
 | Win11 + только Twemoji Flags | ✅ | ❌ | ✅ | Последняя версия Chasmical — 17.0 есть, 18.0 нет |
 | Win11 + `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` | ✅ | ✅ | ✅ | ⭐ **Рекомендуется** — полная поддержка, единый стиль |
 
