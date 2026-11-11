@@ -1,10 +1,17 @@
 # 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 & 18.0 Support
 # Add Country Flag Emojis to Windows 10-11
 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/tuannvbg/unicode‑flags‑for‑windows/total?label=Downloads&style=flat‑square)
+
+<!-- Bắt đầu khối badge -->
 ![GitHub Stars](https://img.shields.io/github/stars/tuannvbg/unicode‑flags‑for‑windows?label=Stars&style=flat‑square)
 ![GitHub Watchers](https://img.shields.io/github/watchers/tuannvbg/unicode‑flags‑for‑windows?label=Watchers&style=flat‑square)
 ![GitHub Forks](https://img.shields.io/github/forks/tuannvbg/unicode‑flags‑for‑windows?label=Forks&style=flat‑square)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/tuannvbg/unicode‑flags‑for‑windows/total?label=Downloads&style=flat‑square)
+
+<!-- Nút Blog (nếu anh có blog riêng thì điền link, còn không xóa dòng này đi) -->
+[![My Blog](https://img.shields.io/badge/my‑blog‑Unicode%20Flags%20for%20Windows‑green?style=flat‑square)](https://your‑blog‑url‑here)
+<!-- Kết thúc khối badge -->
+
 
 This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺🇸🇯🇵 and complete Unicode emoji sets:
 - **Unicode 17.0**: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
