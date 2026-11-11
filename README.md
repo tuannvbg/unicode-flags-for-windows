@@ -1,6 +1,4 @@
 # 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 & 18.0 Support
-# Add Country Flag Emojis to Windows 10-11
-
 
 <!-- Bắt đầu khối badge -->
 ![GitHub Stars](https://img.shields.io/github/stars/tuannvbg/unicode‑flags‑for‑windows?label=Stars&style=flat‑square)
