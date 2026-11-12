@@ -180,6 +180,54 @@ and configure your browser to use `'Noto Color Emoji'` for perfect flag colors.
 - 🛠️ [Submit Your Fix](guides/firefox.fix.template.en.md)
 
 ---
+## ❓ Frequently Asked Questions
+
+<details>
+<summary>👉 Why do flag emojis only show VN / US / JP on Windows by default?</summary>
+
+Flag emojis are Unicode regional‑indicator character pairs. Microsoft’s default Segoe UI Emoji renders them as two‑letter country codes to maintain geopolitical neutrality.
+Reference: [EmojiAll explanation](https://www.emojiall.com/en/blog/321)
+
+</details>
+
+<details>
+<summary>👉 How does Unicode Flags for Windows fix this?</summary>
+
+It provides an optional system‑font replacement package for Windows 10 & 11 with two separate choices:
+1. Patch only missing country flags, keep original Windows emoji style
+2. Switch to Google Noto Color Emoji 18.0 (2D ready, 3D coming soon)
+
+</details>
+
+<details>
+<summary>👉 Does it support the latest Unicode versions?</summary>
+
+✅ Full support for Unicode 17.0 & Unicode 18.0 emoji sets.
+
+</details>
+
+<details>
+<summary>👉 Can I revert back to the original Windows font?</summary>
+
+Absolutely. The installer creates an automatic backup of your original Segoe UI Emoji font; you can restore it at any time.
+
+</details>
+
+<details>
+<summary>👉 Attribution & copyright note</summary>
+
+Noto Color Emoji is originally created by Google. This project only converts and packages the font for Windows compatibility — all artwork credit belongs to Google.
+
+</details>
+
+<details>
+<summary>👉 Is this different from Chasmical’s flag‑emoji‑for‑windows?</summary>
+
+Yes. Both are valid community solutions:
+‑ Chasmical: Preserves Windows Fluent‑style emoji
+‑ Unicode Flags for Windows: Adds Noto Color Emoji 18.0 option plus newer Unicode 17‑18 support
+
+</details>
 
 ## 🤔 Comparison with Other Projects
 
