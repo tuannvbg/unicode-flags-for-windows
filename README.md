@@ -1,4 +1,4 @@
-# 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 & 18.0 Support
+7# 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 & 18.0 Support
 
 
 ![GitHub Stars](https://img.shields.io/github/stars/tuannvbg/unicode-flags-for-windows?label=Stars&style=flat-square)
@@ -381,6 +381,24 @@ Bằng cách cài cả `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` + `seguiemj_1_31_
 - 🛠️ [Gửi phương án sửa lỗi của bạn](guides/firefox.fix.template.vi.md)
 
 ---
+## ❓ Câu hỏi thường gặp
+
+<details>
+<summary>👉 Tại sao cờ emoji mặc định trên Windows chỉ hiện VN / US / JP?</summary>
+
+Cờ emoji là cặp ký tự Unicode regional‑indicator. Font Segoe UI Emoji gốc của Microsoft hiển thị dưới dạng 2 chữ để giữ tính trung lập chính trị.
+Tham khảo: [EmojiAll](https://www.emojiall.com/en/blog/321)
+
+</details>
+
+<details>
+<summary>👉 Dự án Unicode Flags for Windows sửa lỗi này như thế nào?</summary>
+
+Cung cấp gói font tùy chọn cho Windows 10 & 11 với 2 lựa chọn:
+1. Chỉ bổ sung cờ còn thiếu, giữ nguyên phong cách emoji Windows
+2. Chuyển sang Google Noto Color Emoji 18.0 (2D đã sẵn, 3D sắp ra mắt)
+
+</details>
 
 ## 🤔 So sánh với các giải pháp khác
 
