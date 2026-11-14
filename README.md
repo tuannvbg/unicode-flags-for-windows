@@ -32,7 +32,7 @@ Display of newer emojis (16.0, 17.0, 18.0 🫫...) depends on the font package y
 
 ## unicode-flags-for-windows 🇻🇳
 
-**tuannvbg** — Vietnamese developer determined to make national flag emojis display correctly on Windows 😎🇻🇳🇺🇸
+**tuannvbg** — Making flag emojis work properly on Windows 😎🇻🇳🇺🇸
 
 ---
 
