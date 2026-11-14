@@ -194,7 +194,7 @@ Mỗi giải pháp đều có ưu/nhược điểm riêng.
 ---
 
 ## 💬 Tác giả
-Tuannvbg – lập trình viên Việt Nam đầu tiên giúp emoji cờ Unicode hiển thị đúng trên Windows 😎🇻🇳🇺🇸
+Tuannvbg – Hỗ trợ hiển thị emoji cờ Unicode trên Windows 😎🇻🇳🇺🇸
 
 ---
 
