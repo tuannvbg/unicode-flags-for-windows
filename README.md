@@ -12,7 +12,7 @@ This project helps Windows 10 & 11 display full-color flag emojis 🇻🇳🇺�
 - **Unicode 18.0**: 🫫🫹🫹🏻🫹🏼🫹🏽🫹🏾🫹🏿 🫺🫺🏻🫺🏼🫺🏽🫺🏾🫺🏿 🫌🫝🛙🪋🪌🪍
 > 📸 **Preview below — emojis will show correctly only on devices that already support Unicode 17.0 & 18.0.** If you see empty boxes □, your system needs the font package from this repository.
 
-![Unicode 17.0 & 18.0 Preview](screenshots/U17.U18Screenshot_2026-11-14_165615.png)
+![Unicode 17.0 & 18.0 Preview](screenshots/U17.U18.Noto.Screenshot_2026-11-14_165615.png)
 >📌 **Version Note**
 Documentation and screenshots in this repository are based on Twemoji and Unicode standards.
 Display of newer emojis (16.0, 17.0, 18.0 🫫...) depends on the font package you install.
