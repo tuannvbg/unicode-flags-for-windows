@@ -285,6 +285,9 @@ Không cần chờ cập nhật từ Microsoft. Không giải pháp nửa vời.
 - 🎨 **Noto Color Emoji 18.0 — Phiên bản 2D**: gọn nhẹ, ổn định, khuyến nghị dùng hàng ngày ⭐
 - ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — sửa lỗi cờ Trung Quốc 🇨🇳 (giải quyết issue #3)
 - ⏳ **Noto Color Emoji Phiên bản 3D** — phong cách sống động hơn, đang phát triển, sắp ra mắt!
+> 📸 **Xem trước bên dưới — emoji sẽ hiển thị đúng chỉ trên các thiết bị đã hỗ trợ Unicode 17.0 & 18.0.** Nếu bạn thấy ô vuông trống □, hệ thống của bạn cần cài gói font từ kho mã này.
+
+![Xem trước Unicode 17.0 & 18.0](screenshots/U17.U18.Noto.Screenshot_2026-11-14_165615.png)
 
 ### 📦 Khuyến nghị — Noto Color Emoji 18.0 2D
 Cài đặt `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` để có trải nghiệm hoàn chỉnh nhất:
@@ -456,6 +459,9 @@ Windows 10 和 11 原生无法完整显示 Unicode 标准国旗表情符号（�
 - 🎨 **Noto 彩色表情 18.0 — 2D 版**：轻量稳定，推荐日常使用 ⭐
 - ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — 修复错误的中国国旗 🇨🇳（解决 issue #3）
 - ⏳ **Noto 3D 版**：更生动立体的样式，开发中，敬请期待！
+> 📸 **下方预览 — 表情符号仅在已支持 Unicode 17.0 和 18.0 的设备上才能正确显示。** 如果您看到空白方框 □，说明您的系统需要安装本仓库提供的字体包。
+
+![Unicode 17.0 & 18.0 预览](screenshots/U17.U18.Noto.Screenshot_2026-11-14_165615.png)
 
 ### 📦 推荐方案 — Noto 彩色表情 18.0 2D 版
 安装 `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` 获得最完整体验：
@@ -609,6 +615,9 @@ Windows 10 и 11 изначально не поддерживают полноц
 - 🎨 **Noto Color Emoji 18.0 — версия 2D**: легковесная, стабильная, рекомендуется для повседневного использования ⭐
 - ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — исправляет неверный флаг Китая 🇨🇳 (решает issue #3)
 - ⏳ **Noto 3D** — объёмные эмодзи, в разработке, скоро появятся!
+> 📸 **Предпросмотр ниже — эмодзи отображаются корректно только на устройствах с поддержкой Unicode 17.0 и 18.0.** Если видны пустые квадраты □ — установите шрифт из этого репозитория.
+
+![Предпросмотр Unicode 17.0 & 18.0](screenshots/U17.U18.Noto.Screenshot_2026-11-14_165615.png)
 
 ### 📦 Рекомендуемый вариант — Noto Color Emoji 18.0 2D
 Установите `Noto-Color-Emoji-18.0-2D-for-Windows.ttf` для наиболее полного опыта:
