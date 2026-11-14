@@ -196,7 +196,7 @@ Windows 10 和 11 默认不支持完整的 Unicode 国旗表情符号（例如 �
 
 ## 💬 作者
 
-Tuannvbg – 第一位让 Unicode 国旗 emoji 在 Windows 上正确显示的越南开发者 😎🇻🇳🇺🇸
+Tuannvbg 🇻🇳 – 让 Unicode 国旗表情在 Windows 上正确显示 😎🇻🇳🇺🇸
 
 ---
 
