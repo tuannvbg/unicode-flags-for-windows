@@ -196,51 +196,54 @@ and configure your browser to use `'Noto Color Emoji'` for perfect flag colors.
 ## ❓ Frequently Asked Questions
 
 <details>
-<summary>👉 Why do flag emojis only show VN / US / JP on Windows by default?</summary>
+<summary>👉 Why do flag emojis only show VN / US / JP on Windows by default?</summary>
 
-Flag emojis are Unicode regional‑indicator character pairs. Microsoft’s default Segoe UI Emoji renders them as two‑letter country codes to maintain geopolitical neutrality.
-Reference: [EmojiAll explanation](https://www.emojiall.com/en/blog/321)
+Flag emojis are Unicode regional‑indicator character pairs. Microsoft’s default Segoe UI Emoji renders them as two‑letter country codes to maintain geopolitical neutrality.
 
-</details>
-
-<details>
-<summary>👉 How does Unicode Flags for Windows fix this?</summary>
-
-It provides an optional system‑font replacement package for Windows 10 & 11 with two separate choices:
-1. Patch only missing country flags, keep original Windows emoji style
-2. Switch to Google Noto Color Emoji 18.0 (2D ready, 3D coming soon)
+Reference: [EmojiAll explanation](https://www.emojiall.com/en/blog/321)
 
 </details>
 
 <details>
-<summary>👉 Does it support the latest Unicode versions?</summary>
+<summary>👉 How does Unicode Flags for Windows fix this?</summary>
 
-✅ Full support for Unicode 17.0 & Unicode 18.0 emoji sets.
+It provides an optional system‑font replacement package for Windows 10 & 11 with two separate choices:
+1. Patch only missing country flags — keeps Windows' original Fluent 3D emoji style
+2. Switch to Google Noto Color Emoji 18.0 — complete Unicode 17.0 & 18.0 support, unified 2D design
+
+</details>
+
+<details>
+<summary>👉 Which Unicode emoji sets are supported?</summary>
+
+✅ **Unicode 17.0**: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
+✅ **Unicode 18.0**: 🫫🫹🫹🏻🫹🏼🫹🏽🫹🏾🫹🏿 🫺🫺🏻🫺🏼🫺🏽🫺🏾🫺🏿 🫌🫝🛙🪋🪌🪍
 
 </details>
 
 <details>
 <summary>👉 Can I revert back to the original Windows font?</summary>
 
-Absolutely. The installer creates an automatic backup of your original Segoe UI Emoji font; you can restore it at any time.
+Absolutely. The installer creates an automatic backup of your original Segoe UI Emoji font; you can restore it at any time.
 
 </details>
 
 <details>
 <summary>👉 Attribution & copyright note</summary>
 
-Noto Color Emoji is originally created by Google. This project only converts and packages the font for Windows compatibility — all artwork credit belongs to Google.
+Noto Color Emoji is originally created by Google. This project only converts and packages the font for Windows compatibility — all artwork credit belongs to Google.
 
 </details>
 
 <details>
-<summary>👉 Is this different from Chasmical’s flag‑emoji‑for‑windows?</summary>
+<summary>👉 Is this different from Chasmical's flag‑emoji‑for‑windows?</summary>
 
 Yes. Both are valid community solutions:
-‑ Chasmical: Preserves Windows Fluent‑style emoji
-‑ Unicode Flags for Windows: Adds Noto Color Emoji 18.0 option plus newer Unicode 17‑18 support
+- **Chasmical**: Preserves Windows Fluent‑style 3D emojis; includes Twemoji flags + 7 basic Unicode 17.0 emojis
+- **Unicode Flags for Windows**: Adds full Unicode 17.0 & 18.0 support including ZWJ sequences (like 🧑‍🩰), plus the Noto Color Emoji option
 
 </details>
+
 
 ## 🤔 Comparison with Other Projects
 
@@ -400,21 +403,54 @@ Bằng cách cài cả `Segoe.UI.Emoji.with.Twemoji.Flags.ttf` + `seguiemj_1_31_
 ## ❓ Câu hỏi thường gặp
 
 <details>
-<summary>👉 Tại sao cờ emoji mặc định trên Windows chỉ hiện VN / US / JP?</summary>
+<summary>👉 Tại sao emoji cờ quốc gia trên Windows chỉ hiện VN / US / JP?</summary>
 
-Cờ emoji là cặp ký tự Unicode regional‑indicator. Font Segoe UI Emoji gốc của Microsoft hiển thị dưới dạng 2 chữ để giữ tính trung lập chính trị.
-Tham khảo: [EmojiAll](https://www.emojiall.com/en/blog/321)
+Emoji cờ quốc gia là cặp ký tự chỉ vùng theo chuẩn Unicode. Font Segoe UI Emoji mặc định của Microsoft hiển thị dưới dạng 2 chữ viết tắt để giữ tính trung lập về chính trị.
+
+Tham khảo: [Giải thích trên EmojiAll](https://www.emojiall.com/vi/blog/321)
 
 </details>
 
 <details>
-<summary>👉 Dự án Unicode Flags for Windows sửa lỗi này như thế nào?</summary>
+<summary>👉 Dự án Unicode Flags for Windows giải quyết như thế nào?</summary>
 
-Cung cấp gói font tùy chọn cho Windows 10 & 11 với 2 lựa chọn:
-1. Chỉ bổ sung cờ còn thiếu, giữ nguyên phong cách emoji Windows
-2. Chuyển sang Google Noto Color Emoji 18.0 (2D đã sẵn, 3D sắp ra mắt)
+Cung cấp gói font tùy chọn cho Windows 10 & 11 với 2 lựa chọn:
+1. Chỉ bổ sung cờ quốc gia còn thiếu — giữ nguyên phong cách emoji 3D gốc của Windows
+2. Sử dụng Google Noto Color Emoji 18.0 — hỗ trợ đầy đủ Unicode 17.0 & 18.0, thiết kế 2D thống nhất
 
 </details>
+
+<details>
+<summary>👉 Hỗ trợ bộ emoji Unicode nào?</summary>
+
+✅ **Unicode 17.0**: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
+✅ **Unicode 18.0**: 🫫🫹🫹🏻🫹🏼🫹🏽🫹🏾🫹🏿 🫺🫺🏻🫺🏼🫺🏽🫺🏾🫺🏿 🫌🫝🛙🪋🪌🪍
+
+</details>
+
+<details>
+<summary>👉 Có thể quay lại font gốc của Windows không?</summary>
+
+Hoàn toàn có thể. Chương trình cài sẽ tự động tạo bản sao lưu font Segoe UI Emoji gốc; bạn có thể khôi phục bất kỳ lúc nào.
+
+</details>
+
+<details>
+<summary>👉 Ghi chú về bản quyền & nguồn gốc</summary>
+
+Noto Color Emoji là sản phẩm gốc của Google. Dự án này chỉ chuyển đổi và đóng gói font cho tương thích với Windows — toàn bộ thiết kế và hình ảnh thuộc về Google.
+
+</details>
+
+<details>
+<summary>👉 Khác với dự án flag-emoji-for-windows của Chasmical như thế nào?</summary>
+
+Cả hai đều là giải pháp hợp lệ của cộng đồng:
+- **Chasmical**: Giữ phong cách emoji 3D Fluent của Windows; bao gồm cờ Twemoji + 7 emoji cơ bản của Unicode 17.0
+- **Unicode Flags for Windows**: Hỗ trợ đầy đủ Unicode 17.0 & 18.0 bao gồm các chuỗi ZWJ (như 🧑‍🩰), cùng với lựa chọn dùng Noto Color Emoji
+
+</details>
+
 
 ## 🤔 So sánh với các giải pháp khác
 
@@ -571,6 +607,56 @@ Windows 10 和 11 原生无法完整显示 Unicode 标准国旗表情符号（�
 - 🛠️ [提交你的解决方案](guides/firefox.fix.template.zh.md)
 
 ---
+## ❓ 常见问题
+
+<details>
+<summary>👉 为什么 Windows 上国旗表情只显示 VN / US / JP 两个字母？</summary>
+
+国旗表情符号由一对 Unicode 区域指示符字符组成。微软默认的 Segoe UI Emoji 字体将其渲染为两位国家代码，以维持地缘政治中立性。
+
+参考资料：[EmojiAll 详细说明](https://www.emojiall.com/en/blog/321)
+
+</details>
+
+<details>
+<summary>👉 Unicode Flags for Windows 是如何解决这个问题的？</summary>
+
+本项目为 Windows 10 和 11 提供可选的系统字体替换方案，包含两种选择：
+1. 仅补充缺失的国旗 — 保留 Windows 原生 Fluent 3D 表情样式
+2. 使用 Google Noto Color Emoji 18.0 — 完整支持 Unicode 17.0 和 18.0，统一 2D 视觉风格
+
+</details>
+
+<details>
+<summary>👉 支持哪些 Unicode 表情版本？</summary>
+
+✅ **Unicode 17.0**：🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
+✅ **Unicode 18.0**：🫫🫹🫹🏻🫹🏼🫹🏽🫹🏾🫹🏿 🫺🫺🏻🫺🏼🫺🏽🫺🏾🫺🏿 🫌🫝🛙🪋🪌🪍
+
+</details>
+
+<details>
+<summary>👉 可以恢复回 Windows 原始字体吗？</summary>
+
+完全可以。安装程序会自动备份您的原始 Segoe UI Emoji 字体，您可以随时恢复。
+
+</details>
+
+<details>
+<summary>👉 版权与来源说明</summary>
+
+Noto Color Emoji 由 Google 原创制作。本项目仅对字体进行转换和打包以适配 Windows 系统 — 所有美术设计和图像版权归 Google 所有。
+
+</details>
+
+<details>
+<summary>👉 与 Chasmical 的 flag-emoji-for-windows 有何不同？</summary>
+
+两者都是社区贡献的有效解决方案：
+- **Chasmical**：保留 Windows Fluent 3D 表情风格；包含 Twemoji 国旗 + 7 个基础 Unicode 17.0 表情
+- **Unicode Flags for Windows**：完整支持 Unicode 17.0 和 18.0，包括 ZWJ 组合序列（如 🧑‍🩰），并提供 Noto Color Emoji 作为可选方案
+
+</details>
 
 ## 🤔 与其他方案对比
 
@@ -727,6 +813,56 @@ Windows 10 и 11 изначально не поддерживают полноц
 - 🛠️ [Предложить своё решение](guides/firefox.fix.template.ru.md)
 
 ---
+## ❓ Часто задаваемые вопросы
+
+<details>
+<summary>👉 Почему флаги на Windows по умолчанию показывают только VN / US / JP?</summary>
+
+Эмодзи-флаги — это пара символов региональных индикаторов Unicode. Стандартный шрифт Segoe UI Emoji от Microsoft отображает их в виде двухбуквенных кодов стран, чтобы сохранить геополитическую нейтральность.
+
+Источник: [Объяснение на EmojiAll](https://www.emojiall.com/en/blog/321)
+
+</details>
+
+<details>
+<summary>👉 Как Unicode Flags for Windows решает эту проблему?</summary>
+
+Проект предлагает альтернативный системный шрифт для Windows 10 и 11 с двумя вариантами:
+1. Добавляет недостающие флаги стран — сохраняя оригинальный стиль Fluent 3D эмодзи Windows
+2. Переключает на Google Noto Color Emoji 18.0 — полная поддержка Unicode 17.0 и 18.0, единый 2D-дизайн
+
+</details>
+
+<details>
+<summary>👉 Какие версии Unicode поддерживаются?</summary>
+
+✅ **Unicode 17.0**: 🫪🫯🫈🧑‍🩰🫍🛘🪊🪎
+✅ **Unicode 18.0**: 🫫🫹🫹🏻🫹🏼🫹🏽🫹🏾🫹🏿 🫺🫺🏻🫺🏼🫺🏽🫺🏾🫺🏿 🫌🫝🛙🪋🪌🪍
+
+</details>
+
+<details>
+<summary>👉 Можно ли вернуть оригинальный шрифт Windows?</summary>
+
+Конечно. Установщик автоматически создает резервную копию вашего исходного шрифта Segoe UI Emoji; вы можете восстановить его в любое время.
+
+</details>
+
+<details>
+<summary>👉 Авторские права и источники</summary>
+
+Noto Color Emoji создан компанией Google. Данный проект только преобразует и упаковывает шрифт для совместимости с Windows — все авторские права на графику принадлежат Google.
+
+</details>
+
+<details>
+<summary>👉 Чем отличается от проекта Chasmical flag-emoji-for-windows?</summary>
+
+Оба решения имеют свои преимущества:
+- **Chasmical**: сохраняет оригинальный вид 3D-эмодзи Windows; содержит флаги из Twemoji + 7 базовых эмодзи Unicode 17.0
+- **Unicode Flags for Windows**: полная поддержка Unicode 17.0 и 18.0, включая ZWJ-последовательности (например, 🧑‍🩰), а также вариант с Noto Color Emoji
+
+</details>
 
 ## 🤔 Сравнение с другими решениями
 
