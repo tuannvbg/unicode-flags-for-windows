@@ -186,7 +186,7 @@ Each solution has its pros and cons.
 ---
 
 ## 💬 Author
-Tuannvbg – the first Vietnamese developer to make Unicode flag emojis display correctly on Windows 😎🇻🇳🇺🇸
+Tuannvbg 🇻🇳 – Making Unicode flag emojis work properly on Windows 😎🇻🇳🇺🇸
 
 ---
 
