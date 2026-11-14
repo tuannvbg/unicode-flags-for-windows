@@ -1,12 +1,4 @@
-# 🌍 Unicode Flags for Windows — Emoji Picker + Unicode 17.0 & 18.0 Support
-
-
-![GitHub Stars](https://img.shields.io/github/stars/tuannvbg/unicode-flags-for-windows?label=Stars&style=flat-square)
-![GitHub Watchers](https://img.shields.io/github/watchers/tuannvbg/unicode-flags-for-windows?label=Watchers&style=flat-square)
-![GitHub Forks](https://img.shields.io/github/forks/tuannvbg/unicode-flags-for-windows?label=Forks&style=flat-square)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/tuannvbg/unicode-flags-for-windows/total?label=Downloads&style=flat-square)
-
-<h1 align="center">Unicode Flags for Windows — Emoji Picker + Unicode 17.0 & 18.0 Support</h1>
+<h1 align="center">🌍Unicode Flags for Windows + Unicode 17.0 & 18.0 Support</h1>
 
 <div align="center">
   <p>
