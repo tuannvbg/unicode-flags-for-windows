@@ -326,7 +326,7 @@ Bản sửa `seguiemj_1_33_mod_CN_fixed.ttf` thay bằng cờ PRC hiện đại.
 #### Cách 1: Noto Color Emoji 18.0 2D (Khuyến nghị ⭐)
 - Tệp: `Noto-Color-Emoji-18.0-2D-for-Windows.ttf`
 - Hỗ trợ: **Unicode 17.0 + 18.0** ✅✅
-- Cờ quốc gia: Đúng màu theo chuẩn Twemoji ✅
+- Cờ quốc gia: Đúng màu theo chuẩn Noto Color Emoji  ✅
 - Đã kiểm tra trên: Windows 11 ✅
 
 #### Cách 2: Kết hợp nhiều font (Phương pháp cũ)
