@@ -34,7 +34,7 @@ Display of newer emojis (16.0, 17.0, 18.0 🫫...) depends on the font package y
 - ⏳ **Noto Color Emoji 18.0 3D** — in progress, coming soon
 > 🚀 **NEW GENERATION UPGRADE AVAILABLE!**  
 > Looking for **Windows 11 Fluent 3D Emojis + All 262 Flags + Full Unicode 18.0 + 3,136 Multi-Skin ZWJ Sequences** (only **13.59 MB** via Pure `COLRv1 + CBDT` Hybrid Engine, plus Apple-style Ultra HD 8-Strike & Honor MagicOS `.hwt`)?  
-> 👉 **Check out our successor project:** **[tuannvbg/flag-emoji-for-windows-pro](https://github.com)** | 🌐 **[4-Language Live Showcase](https://tuannvbg.github.io/flag-emoji-for-windows-pro)**
+> 👉 **Check out our successor project:** **[tuannvbg/flag-emoji-for-windows-pro](https://github.com/tuannvbg/flag-emoji-for-windows-pro)** | 🌐 **[4-Language Live Showcase](https://tuannvbg.github.io/flag-emoji-for-windows-pro)**
 
 🙌 Credits: Thanks to @Chasmical, @jjjuk and the community for valuable foundations.
 
