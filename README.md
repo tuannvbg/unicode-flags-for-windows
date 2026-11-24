@@ -304,7 +304,7 @@ Không cần chờ cập nhật từ Microsoft. Không giải pháp nửa vời.
 - ⏳ **Noto Color Emoji Phiên bản 3D** — phong cách sống động hơn, đang phát triển, sắp ra mắt!
   > 🚀 **ĐÃ RA MẮT THẾ HỆ NÂNG CẤP MỚI!**  
 > Bạn muốn trải nghiệm **Emoji Fluent 3D của Windows 11 + Trọn bộ 262 Quốc Kỳ + Full Unicode 18.0 + 3.136 Chuỗi ZWJ Đa Tông Da** (chỉ **13.59 MB** với kiến trúc lai `COLRv1 + CBDT` tinh gọn, kèm bản Ultra HD 8 độ phân giải & theme Honor MagicOS `.hwt`)?  
-> 👉 **Khám phá ngay dự án kế nhiệm:** **[tuannvbg/flag-emoji-for-windows-pro](https://github.com)** | 🌐 **[Trang Giới Thiệu 4 Ngôn Ngữ]([https://github.io](https://tuannvbg.github.io/flag-emoji-for-windows-pro)**
+> 👉 **Khám phá ngay dự án kế nhiệm:** **[tuannvbg/flag-emoji-for-windows-pro](https://github.com/tuannvbg/flag-emoji-for-windows-pro)** | 🌐 **[4-Language Live Showcase](https://tuannvbg.github.io/flag-emoji-for-windows-pro)**
 
 > 📸 **Xem trước bên dưới — emoji sẽ hiển thị đúng chỉ trên các thiết bị đã hỗ trợ Unicode 17.0 & 18.0.** Nếu bạn thấy ô vuông trống □, hệ thống của bạn cần cài gói font từ kho mã này.
 
@@ -514,6 +514,9 @@ Windows 10 和 11 原生无法完整显示 Unicode 标准国旗表情符号（�
 - ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — 修复错误的中国国旗 🇨🇳（解决 issue #3）
 - ⏳ **Noto 3D 版**：更生动立体的样式，开发中，敬请期待！
 > 📸 **下方预览 — 表情符号仅在已支持 Unicode 17.0 和 18.0 的设备上才能正确显示。** 如果您看到空白方框 □，说明您的系统需要安装本仓库提供的字体包。
+> 🚀 **全新一代 3D 混合版现已正式发布！**  
+> 想要体验 **Windows 11 Fluent 3D 表情 + 全部 262 面国旗 + 完整 Unicode 18.0 + 3,136 个多肤色 ZWJ 序列**（纯净 `COLRv1 + CBDT` 混合架构仅需 **13.59 MB**，另附仿 Apple 超清 8 级分辨率与荣耀 MagicOS `.hwt` 主题）？  
+> 👉 **立即访问全新升级仓库：** **[tuannvbg/flag-emoji-for-windows-pro](https://github.com/tuannvbg/flag-emoji-for-windows-pro)** | 🌐 **[4-Language Live Showcase](https://tuannvbg.github.io/flag-emoji-for-windows-pro)**
 
 ![Unicode 17.0 & 18.0 预览](screenshots/U17.U18.Noto.Screenshot_2026-11-14_165615.png)
 
@@ -719,6 +722,10 @@ Windows 10 и 11 изначально не поддерживают полноц
 - 🎨 **Noto Color Emoji 18.0 — версия 2D**: легковесная, стабильная, рекомендуется для повседневного использования ⭐
 - ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — исправляет неверный флаг Китая 🇨🇳 (решает issue #3)
 - ⏳ **Noto 3D** — объёмные эмодзи, в разработке, скоро появятся!
+> 🚀 **ДОСТУПНО НОВОЕ ПОКОЛЕНИЕ ПРОЕКТА!**  
+> Нужны **3D-эмодзи Windows 11 Fluent + Все 262 флага + Полный Unicode 18.0 + 3 136 ZWJ-последовательностей** (всего **13.59 МБ** на чистом гибридном движке `COLRv1 + CBDT`, а также версия Ultra HD 8-Strike и тема Honor MagicOS `.hwt`)?  
+> 👉 **Переходите в наш новый репозиторий:** **[tuannvbg/flag-emoji-for-windows-pro](https://github.com/tuannvbg/flag-emoji-for-windows-pro)** | 🌐 **[4-Language Live Showcase](https://tuannvbg.github.io/flag-emoji-for-windows-pro)**
+
 > 📸 **Предпросмотр ниже — эмодзи отображаются корректно только на устройствах с поддержкой Unicode 17.0 и 18.0.** Если видны пустые квадраты □ — установите шрифт из этого репозитория.
 
 ![Предпросмотр Unicode 17.0 & 18.0](screenshots/U17.U18.Noto.Screenshot_2026-11-14_165615.png)
