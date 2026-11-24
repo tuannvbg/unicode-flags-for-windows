@@ -32,6 +32,9 @@ Display of newer emojis (16.0, 17.0, 18.0 🫫...) depends on the font package y
 - ✅ **Noto Color Emoji 18.0 2D** — stable, recommended for daily use ⭐
 - ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — fixes incorrect China flag 🇨🇳 (resolves issue #3)
 - ⏳ **Noto Color Emoji 18.0 3D** — in progress, coming soon
+> 🚀 **NEW GENERATION UPGRADE AVAILABLE!**  
+> Looking for **Windows 11 Fluent 3D Emojis + All 262 Flags + Full Unicode 18.0 + 3,136 Multi-Skin ZWJ Sequences** (only **13.59 MB** via Pure `COLRv1 + CBDT` Hybrid Engine, plus Apple-style Ultra HD 8-Strike & Honor MagicOS `.hwt`)?  
+> 👉 **Check out our successor project:** **[tuannvbg/flag-emoji-for-windows-pro](https://github.com)** | 🌐 **[4-Language Live Showcase](https://github.io)**
 
 🙌 Credits: Thanks to @Chasmical, @jjjuk and the community for valuable foundations.
 
@@ -299,6 +302,10 @@ Không cần chờ cập nhật từ Microsoft. Không giải pháp nửa vời.
 - 🎨 **Noto Color Emoji 18.0 — Phiên bản 2D**: gọn nhẹ, ổn định, khuyến nghị dùng hàng ngày ⭐
 - ✅ **seguiemj_1_33_mod_CN_fixed.ttf** — sửa lỗi cờ Trung Quốc 🇨🇳 (giải quyết issue #3)
 - ⏳ **Noto Color Emoji Phiên bản 3D** — phong cách sống động hơn, đang phát triển, sắp ra mắt!
+  > 🚀 **ĐÃ RA MẮT THẾ HỆ NÂNG CẤP MỚI!**  
+> Bạn muốn trải nghiệm **Emoji Fluent 3D của Windows 11 + Trọn bộ 262 Quốc Kỳ + Full Unicode 18.0 + 3.136 Chuỗi ZWJ Đa Tông Da** (chỉ **13.59 MB** với kiến trúc lai `COLRv1 + CBDT` tinh gọn, kèm bản Ultra HD 8 độ phân giải & theme Honor MagicOS `.hwt`)?  
+> 👉 **Khám phá ngay dự án kế nhiệm:** **[tuannvbg/flag-emoji-for-windows-pro](https://github.com)** | 🌐 **[Trang Giới Thiệu 4 Ngôn Ngữ](https://github.io)**
+
 > 📸 **Xem trước bên dưới — emoji sẽ hiển thị đúng chỉ trên các thiết bị đã hỗ trợ Unicode 17.0 & 18.0.** Nếu bạn thấy ô vuông trống □, hệ thống của bạn cần cài gói font từ kho mã này.
 
 ![Xem trước Unicode 17.0 & 18.0](screenshots/U17.U18.Noto.Screenshot_2026-11-14_165615.png)
